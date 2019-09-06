@@ -19,5 +19,5 @@ STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Te
 
 # 4. Write a loop that prints all of the states and names neatly lined up with string formatting
 for state in STATE_NAMES:
-    print("{:<3} is {:<}".format(state, STATE_NAMES[state]))
+    print("{:3} is {}".format(state, STATE_NAMES[state]))
 
