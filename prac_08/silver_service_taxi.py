@@ -12,3 +12,6 @@ class SilverServiceTaxi(Taxi):
     def __str__(self):
         return "{}, plus flagfall of ${:.2f}".format(super().__str__(),
                                                      self.flagfall)
+
+    def get_fare(self):
+        return super().get_fare() + self.flagfall
