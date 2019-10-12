@@ -3,8 +3,6 @@ from prac_08.taxi import Taxi
 from prac_08.silver_service_taxi import SilverServiceTaxi
 
 MENU = """q)uit, c)hoose taxi, d)rive"""
-"Need to save each taxi for subsequent trips"
-"Need to add flagfall if there is one"
 
 
 def main():
