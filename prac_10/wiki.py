@@ -1,10 +1,10 @@
 import wikipedia
 
-phrase = input("Enter a title or search phrase: ")
-while phrase != "":
+search_term = input("Enter a title or search phrase: ")
+while search_term != "":
     try:
-        summary = wikipedia.summary(phrase)
-        page = wikipedia.page(phrase)
+        summary = wikipedia.summary(search_term)
+        page = wikipedia.page(search_term)
         print(page.title)
         print(summary)
         print(page.url)
@@ -13,4 +13,4 @@ while phrase != "":
         # index = int(input("Choose title option: "))
         # summary = wikipedia.summary(e[index])
 
-    phrase = input("Enter a title or search phrase: ")
+    search_term = input("Enter a title or search phrase: ")
